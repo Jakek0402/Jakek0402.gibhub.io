@@ -26,9 +26,9 @@ border-radius:50%;
 }
   
 @keyframes die {
-0% {transform:rotate(0deg);}
-50% {transform:rotate(-90deg);}
-100% {transform:rotate(3600deg);}
+0% {transform:rotate(0deg); filter:none; }
+50% {transform:rotate(-90deg); filter:contrast(5000%) hue-rotate(360deg); }
+100% {transform:rotate(3600deg); }
 }
 </style>
 <marquee>This site is currently under surveillance by the Federal Bureau of Investigation</marquee>
